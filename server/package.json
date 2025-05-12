@@ -1,0 +1,23 @@
+{
+    "name": "prime_cast_server",
+    "version": "1.0.0",
+    "description": "this is the server of prime_cast",
+    "license": "ISC",
+    "author": "Rick Paramanik",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.1",
+        "@types/node": "^22.15.17",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.8.3"
+    }
+}
